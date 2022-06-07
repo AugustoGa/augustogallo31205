@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.mydiv {
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background: rgba(255,128,0,1) 100%;
+}
+.logo-nav{
+  height: 100px;
+  width: 100px;
+}
+.Carrito{
+  text-align: center;
+}

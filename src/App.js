@@ -1,24 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import ItemListContainer from './components/ItemListContainer';
+import NavBar from './components/NavBar';
+import ItemCount from './components/temCount';
 
 function App() {
+  const onAdd = () =>{
+    
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <>
+    <NavBar/>
+    <ItemListContainer greeting={(`hola`)}/>
+    <ItemCount inicial = {1} max = {5} ondAd = {onAdd} />
+  </>
   );
 }
 
