@@ -11,7 +11,7 @@ function App() {
   <>
     <NavBar/>
     <ItemListContainer greeting={(`hola`)}/>
-    <ItemCount inicial = {1} max = {5} ondAd = {onAdd} />
+    /* <ItemCount inicial = {1} max = {5} ondAd = {onAdd}/>/* 
   </>
   );
 }

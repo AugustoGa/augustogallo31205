@@ -25,3 +25,7 @@ code {
 .Carrito{
   text-align: center;
 }
+.Carta{
+  display: flex;
+  flex-wrap: wrap;
+}
